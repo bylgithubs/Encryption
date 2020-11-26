@@ -1,0 +1,24 @@
+PODS:
+  - Base64 (1.1.2)
+  - Base64nl (1.2)
+  - RSA (1.0.1)
+
+DEPENDENCIES:
+  - Base64 (~> 1.1.2)
+  - Base64nl (~> 1.2)
+  - RSA (~> 1.0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Base64
+    - Base64nl
+    - RSA
+
+SPEC CHECKSUMS:
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  Base64nl: a497bdcd1c01ea793d36b399016195a8713c0e95
+  RSA: 3dc7b2a4ce0e5441fb44b6e75f1922e15476c5e9
+
+PODFILE CHECKSUM: fe0d6569db83487adcc386b494afe0b48170add1
+
+COCOAPODS: 1.10.0

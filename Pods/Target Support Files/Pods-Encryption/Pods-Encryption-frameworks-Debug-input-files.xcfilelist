@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Encryption/Pods-Encryption-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Base64/Base64.framework
+${BUILT_PRODUCTS_DIR}/Base64nl/Base64nl.framework
+${BUILT_PRODUCTS_DIR}/RSA/RSA.framework

@@ -1,0 +1,1128 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043FCE63EB889C144461693407D4D00A /* NSDictionary+BDParseJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 13898595845082E42D0EFBBB768C946F /* NSDictionary+BDParseJSON.m */; };
+		06CFDF925069A7AA14A6D31D21ED2FE9 /* BDAESCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E5A587086A36644B4603024D35AC10 /* BDAESCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075BC23E586ECB84D03AB366DB527847 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 2360D678F26AC0BDC583ACF5436B7C8D /* Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDA3B744279CEF50DB4C1F56AD57650 /* BDJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F9F77591F921E1609DC84A5A534F73 /* BDJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		245DA0F938E643FC2A692269FD1976F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		26EFE4E74A9C5432803530D7F93CC406 /* NSString+BDUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8071A0C4A575A0C1287E14E14EA1CBE5 /* NSString+BDUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BBFE82FD500E8DA2057E6866276FDB5 /* Base64-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CA598B6EB81056EDFA73F102DD0B5F /* Base64-dummy.m */; };
+		3C8D12FF365F304C534886F4715FEFE9 /* NSString+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 344CD00A85FB5DEC57DD0420634EEC0E /* NSString+BDJSONSerialization.m */; };
+		4217091FB26537D70554531304F88935 /* NSDictionary+BDParseJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 8689F13010F080373F3D37354F398217 /* NSDictionary+BDParseJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42A9A14C3E219757791247CA378D8D35 /* BDCryptorError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DD80775E62E21B3BB3DD7054BFDF2A3 /* BDCryptorError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52187291B58AA66B64E4BBBCE3931732 /* Base64nl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFA07009C8E6E364F0440544018375B /* Base64nl-dummy.m */; };
+		54676A2DD5CC71B604278902360DBC48 /* BDRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A69535ED043CD0971EB08105EE3C6E86 /* BDRSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58D9A148E31F217EF5BE5B1A8E92EC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5B37A4D5DC0F55007CA30FF76884F857 /* SCRSACryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 09AD003A7003EA0EF4A38A2910859E14 /* SCRSACryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6F9F18262C5703FD483DDB90DF7764 /* NSData+Base641.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F43F3D6815867E7F17FF1FDF38EB539 /* NSData+Base641.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		607CEBCC212E517E6C89CF7D47BFEDEE /* NSArray+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = BC74DB9C3BA7D699271DD89EC1852F28 /* NSArray+BDJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60A9C9710CBF6B23A99E604189EC03FB /* NSObject+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C36E64BB80AE752E79FC34B54F1C13 /* NSObject+BDJSONSerialization.m */; };
+		64CDE502C10631FB0731051BFBB688E5 /* BDSHA512Cryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CF5CC12D851073192FC7F0797E0068 /* BDSHA512Cryptor.m */; };
+		6B8758E15FF0FB71255ACDDF1C43BC9F /* BDAESCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1672245A5A7ED05203C3854E0A5221FE /* BDAESCryptor.m */; };
+		717F44A88801E6CA81788B545FBF2A52 /* NSArray+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C10C53E7461BCDB68F7B2833906E0AE9 /* NSArray+BDJSONSerialization.m */; };
+		79F94DC6BABAB1C466DE24A328ABA3FB /* BDError.m in Sources */ = {isa = PBXBuildFile; fileRef = 279C4A2CC144C10F8E73BD9365BBC3F8 /* BDError.m */; };
+		81F691FD33F78C74A9CE3348CA87CAB2 /* BDJSONError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9D053696ED94BA9180FAC1A949A1E8 /* BDJSONError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		870818229EED21D9AA726B12F0766A88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		899ACA980B6D425614A2AB4600968242 /* NSDictionary+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA98F35FD96CC939BC9F3A4C05902ED /* NSDictionary+BDJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8F055064F72FAC50B142FABB642F08 /* BDRSACryptorKeyPair.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A5E01DDB57DC0A80967772930DF6F4 /* BDRSACryptorKeyPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C9239F06C7C1A1C9633AB11E1935169 /* BDCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F82A1188DC610A3AADC69E1AB319CDD0 /* BDCryptor.m */; };
+		940225EC4877224F56F0B96C8A5195D4 /* RSA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3811A7524B4677F0AE1F70A745FAB76C /* RSA-dummy.m */; };
+		99A945775767DCBEC1685F74B597DF23 /* MF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5574139FC96731F4D9F65DE1C4FF2179 /* MF_Base64Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A2EBC2E7FDFA0559A350EE262AD682C9 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EDCAE025DC6F05AE5ABA26D9EA58D8 /* NSString+Base64.m */; };
+		A58FE09D2193FCA1F500AC523D917575 /* BDAESCBC256Cryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 971DF065863F3AD441F1E8BD9C14F9BE /* BDAESCBC256Cryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB91CD83ABBC20E185A17E1FBC62F25E /* BDCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D262493F3230B9A95C3BFB7258F229B1 /* BDCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6EC77F1C92A395AD9159D97984A39F /* Pods-Encryption-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DF02D5FCC558D8348F335736EDE05A /* Pods-Encryption-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4A46B33BFB001CE620EEBE0C96D1929 /* BDJSONError.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E66DFDD367470C6A608F3ACB0792894 /* BDJSONError.m */; };
+		B585EA66CF774B7FD67D0EFDBF628656 /* NSData+Base641.m in Sources */ = {isa = PBXBuildFile; fileRef = 346EC24C5EB5AC02CC211E9BFA34103B /* NSData+Base641.m */; };
+		BAED4B17E5693474E41C6F6EAF6B6E26 /* NSObject+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EAFBCD87BEE174620DAA82AF36DE84 /* NSObject+BDJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C53B9BFBB37F700DE70CE3C0A5402F /* BDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 217CD84E5F1B8122EB872D0FE9508930 /* BDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C741766B35750FF2B481C8D87FBD7CFC /* NSDictionary+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFD1ED5B5208469323425170E422B91 /* NSDictionary+BDJSONSerialization.m */; };
+		C9A538196DD0BF9A0FDF1E91C0AFF50A /* Base64-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB387FC34E20B661E41656E91765B6C3 /* Base64-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A6A0E391F3264CD9A27B242F80C03A /* BDSHA512Cryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E4CA4EDBBFABBE80E1B192961D8BC6 /* BDSHA512Cryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCAC40E72FD7179B52A6E24F08539FC3 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EC320C7CE80F60F24A11041BFD342C /* NSString+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD5B97A224F386EE8F38FC2C26BDB736 /* NSString+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C641C11329A2DC9304BE81321DB88FA /* NSString+BDJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD9553A35CD366E0F3EA7A953867243 /* NSData+BDJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = BC300EAEF91079355D2A6F7D57A48B1D /* NSData+BDJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9BC6AD4580C679791B6F44A6926CC8 /* Base64nl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D07A62FAA4C3F0064D03B49FA96EE3 /* Base64nl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1428778779D8634977D36F726212323 /* BDCryptorError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA1FAB9D3B19A64A4A12A2E9A85A0CD /* BDCryptorError.m */; };
+		D1B3CFBF3BE0274B581868C047CF25FB /* BDError.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1CAB4760854538AD061043E8AE038B /* BDError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2CA448C91D9C4368E8D42DA780146BA /* BDAESCBC256Cryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE7093402ED119773C2319C11C4FEDD /* BDAESCBC256Cryptor.m */; };
+		D39E9FB280494F3B954004484527051C /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 134A0EBC258C1A7BDBDC6571CD0B29DA /* Base64.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D73A06550C3CAED21DE83716206E437C /* NSString+BDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 579B5B1C57520A702EC46793E7232D7C /* NSString+BDUtilities.m */; };
+		E2C3E6B06FFC35C90F8A6A7B78DA44AE /* SCRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A12217FB3C6F0AB2824471B2934C4 /* SCRSACryptor.m */; };
+		E7C944E6E589B5CBB046E28C01814C35 /* NSData+BDJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A118031B8FDC4E1E6A30F46B01F3A553 /* NSData+BDJSONSerialization.m */; };
+		E88AB2C8BA04B79EB3A808EDAF10A3F7 /* MF_Base64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA60607FD37FAFF83D678D7252DC955 /* MF_Base64Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8C2023AE44E13F8A36530E0CEED6AE /* Pods-Encryption-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 698E936C9EE45C6EDCBB18D987BBEAD6 /* Pods-Encryption-dummy.m */; };
+		EBF323E3B4A1D9F0B996E2613A0356DD /* RSA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB665780687DEF93F61A778CB3F387E /* RSA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A5F957A3C0B8DCBE80AE8836135D79 /* BDRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0A2254560DA88A07C0EA64F63E94B /* BDRSACryptor.m */; };
+		FA3B69DF33CBF51232A02CE18548FA44 /* BDRSACryptorKeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2F574F52C9A5A08FF7041DF23912B /* BDRSACryptorKeyPair.m */; };
+		FE9D48A75A6992B86A44AB39130FFF21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2512A6BB38781AC6F71017A3C801762E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2B17EEE15C8E869A37C1514F4D378E;
+			remoteInfo = Base64;
+		};
+		A2EDDE7A7605C92521271C1D0FF930C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CBD4D5D3634AE60FF999E9B1F2A7E6B;
+			remoteInfo = Base64nl;
+		};
+		C91F12337DF36CA7A0CCB53E73D48551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4800C9DC8117D7550604F4B46B60EBB0;
+			remoteInfo = RSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074A12217FB3C6F0AB2824471B2934C4 /* SCRSACryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCRSACryptor.m; path = RSA/SCRSACryptor.m; sourceTree = "<group>"; };
+		07C36E64BB80AE752E79FC34B54F1C13 /* NSObject+BDJSONSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+BDJSONSerialization.m"; path = "RSA/NSObject+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		09AD003A7003EA0EF4A38A2910859E14 /* SCRSACryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCRSACryptor.h; path = RSA/SCRSACryptor.h; sourceTree = "<group>"; };
+		0B0008A3DB0CC543C4B69110F816F2AE /* Pods-Encryption-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Encryption-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DFA07009C8E6E364F0440544018375B /* Base64nl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Base64nl-dummy.m"; sourceTree = "<group>"; };
+		134A0EBC258C1A7BDBDC6571CD0B29DA /* Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Base64/Base64.m; sourceTree = "<group>"; };
+		13898595845082E42D0EFBBB768C946F /* NSDictionary+BDParseJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BDParseJSON.m"; path = "RSA/NSDictionary+BDParseJSON.m"; sourceTree = "<group>"; };
+		1672245A5A7ED05203C3854E0A5221FE /* BDAESCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDAESCryptor.m; path = RSA/BDAESCryptor.m; sourceTree = "<group>"; };
+		187200D1983632A60D8899665705047F /* Base64.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Base64.release.xcconfig; sourceTree = "<group>"; };
+		1B6FACEC3FFD562311BA76F1645359E8 /* Pods-Encryption-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Encryption-acknowledgements.markdown"; sourceTree = "<group>"; };
+		217CD84E5F1B8122EB872D0FE9508930 /* BDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDLog.h; path = RSA/BDLog.h; sourceTree = "<group>"; };
+		2360D678F26AC0BDC583ACF5436B7C8D /* Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Base64/Base64.h; sourceTree = "<group>"; };
+		24E4CA4EDBBFABBE80E1B192961D8BC6 /* BDSHA512Cryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDSHA512Cryptor.h; path = RSA/BDSHA512Cryptor.h; sourceTree = "<group>"; };
+		279C4A2CC144C10F8E73BD9365BBC3F8 /* BDError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDError.m; path = RSA/BDError.m; sourceTree = "<group>"; };
+		2DA60607FD37FAFF83D678D7252DC955 /* MF_Base64Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MF_Base64Additions.h; path = Base64/MF_Base64Additions.h; sourceTree = "<group>"; };
+		344CD00A85FB5DEC57DD0420634EEC0E /* NSString+BDJSONSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+BDJSONSerialization.m"; path = "RSA/NSString+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		346EC24C5EB5AC02CC211E9BFA34103B /* NSData+Base641.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base641.m"; path = "RSA/NSData+Base641.m"; sourceTree = "<group>"; };
+		34E5A587086A36644B4603024D35AC10 /* BDAESCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAESCryptor.h; path = RSA/BDAESCryptor.h; sourceTree = "<group>"; };
+		3811A7524B4677F0AE1F70A745FAB76C /* RSA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSA-dummy.m"; sourceTree = "<group>"; };
+		39D07A62FAA4C3F0064D03B49FA96EE3 /* Base64nl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Base64nl-umbrella.h"; sourceTree = "<group>"; };
+		48EDCAE025DC6F05AE5ABA26D9EA58D8 /* NSString+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base64.m"; path = "RSA/NSString+Base64.m"; sourceTree = "<group>"; };
+		499E2AE638A66AC1CC56234DD8AB6ABF /* RSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSA.release.xcconfig; sourceTree = "<group>"; };
+		4CA98F35FD96CC939BC9F3A4C05902ED /* NSDictionary+BDJSONSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDJSONSerialization.h"; path = "RSA/NSDictionary+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		4EA1FAB9D3B19A64A4A12A2E9A85A0CD /* BDCryptorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDCryptorError.m; path = RSA/BDCryptorError.m; sourceTree = "<group>"; };
+		5574139FC96731F4D9F65DE1C4FF2179 /* MF_Base64Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MF_Base64Additions.m; path = Base64/MF_Base64Additions.m; sourceTree = "<group>"; };
+		5688A1A4582D458BBA6AEA683738D383 /* RSA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RSA-Info.plist"; sourceTree = "<group>"; };
+		56CA598B6EB81056EDFA73F102DD0B5F /* Base64-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Base64-dummy.m"; sourceTree = "<group>"; };
+		579B5B1C57520A702EC46793E7232D7C /* NSString+BDUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+BDUtilities.m"; path = "RSA/NSString+BDUtilities.m"; sourceTree = "<group>"; };
+		5E66DFDD367470C6A608F3ACB0792894 /* BDJSONError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDJSONError.m; path = RSA/BDJSONError.m; sourceTree = "<group>"; };
+		5F43F3D6815867E7F17FF1FDF38EB539 /* NSData+Base641.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Base641.h"; path = "RSA/NSData+Base641.h"; sourceTree = "<group>"; };
+		60B0A2254560DA88A07C0EA64F63E94B /* BDRSACryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDRSACryptor.m; path = RSA/BDRSACryptor.m; sourceTree = "<group>"; };
+		65DF02D5FCC558D8348F335736EDE05A /* Pods-Encryption-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Encryption-umbrella.h"; sourceTree = "<group>"; };
+		6939C25203FA23D31FBEAE6BD6FC118D /* Pods-Encryption-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Encryption-Info.plist"; sourceTree = "<group>"; };
+		698E936C9EE45C6EDCBB18D987BBEAD6 /* Pods-Encryption-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Encryption-dummy.m"; sourceTree = "<group>"; };
+		6B652EA2679D1E66F4F02756E84851D0 /* Base64.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Base64.modulemap; sourceTree = "<group>"; };
+		6D9D053696ED94BA9180FAC1A949A1E8 /* BDJSONError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDJSONError.h; path = RSA/BDJSONError.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7895C785D44F53412A92E75DBB6538F9 /* Pods-Encryption-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Encryption-frameworks.sh"; sourceTree = "<group>"; };
+		7BFFA6D54D6387294156C7EE95FE2DD5 /* Base64nl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Base64nl.release.xcconfig; sourceTree = "<group>"; };
+		7D652BFC8EC0A830C986D1E5EEA1190F /* Pods-Encryption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Encryption.release.xcconfig"; sourceTree = "<group>"; };
+		7DD80775E62E21B3BB3DD7054BFDF2A3 /* BDCryptorError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDCryptorError.h; path = RSA/BDCryptorError.h; sourceTree = "<group>"; };
+		8071A0C4A575A0C1287E14E14EA1CBE5 /* NSString+BDUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BDUtilities.h"; path = "RSA/NSString+BDUtilities.h"; sourceTree = "<group>"; };
+		8689F13010F080373F3D37354F398217 /* NSDictionary+BDParseJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDParseJSON.h"; path = "RSA/NSDictionary+BDParseJSON.h"; sourceTree = "<group>"; };
+		8C4509E836D9372386A462B7E9B133D5 /* Pods_Encryption.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Encryption.framework; path = "Pods-Encryption.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C773715C78956A5C173B3591BDA465F /* RSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSA.debug.xcconfig; sourceTree = "<group>"; };
+		971DF065863F3AD441F1E8BD9C14F9BE /* BDAESCBC256Cryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAESCBC256Cryptor.h; path = RSA/BDAESCBC256Cryptor.h; sourceTree = "<group>"; };
+		9BD5B115372F892200C9A00A528ECD86 /* RSA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSA.modulemap; sourceTree = "<group>"; };
+		9C641C11329A2DC9304BE81321DB88FA /* NSString+BDJSONSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BDJSONSerialization.h"; path = "RSA/NSString+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		9CF2F574F52C9A5A08FF7041DF23912B /* BDRSACryptorKeyPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDRSACryptorKeyPair.m; path = RSA/BDRSACryptorKeyPair.m; sourceTree = "<group>"; };
+		9D02BF69B2804465ADEA1A0F9CAE8968 /* Pods-Encryption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Encryption.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A103910207F6ACA7CE29EF093FE26FE0 /* Base64-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Base64-prefix.pch"; sourceTree = "<group>"; };
+		A118031B8FDC4E1E6A30F46B01F3A553 /* NSData+BDJSONSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+BDJSONSerialization.m"; path = "RSA/NSData+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		A69535ED043CD0971EB08105EE3C6E86 /* BDRSACryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDRSACryptor.h; path = RSA/BDRSACryptor.h; sourceTree = "<group>"; };
+		A7A5E01DDB57DC0A80967772930DF6F4 /* BDRSACryptorKeyPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDRSACryptorKeyPair.h; path = RSA/BDRSACryptorKeyPair.h; sourceTree = "<group>"; };
+		AA1CAB4760854538AD061043E8AE038B /* BDError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDError.h; path = RSA/BDError.h; sourceTree = "<group>"; };
+		AEFD1ED5B5208469323425170E422B91 /* NSDictionary+BDJSONSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BDJSONSerialization.m"; path = "RSA/NSDictionary+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		B1EAFBCD87BEE174620DAA82AF36DE84 /* NSObject+BDJSONSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BDJSONSerialization.h"; path = "RSA/NSObject+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		B7F9F77591F921E1609DC84A5A534F73 /* BDJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDJSON.h; path = RSA/BDJSON.h; sourceTree = "<group>"; };
+		B9EC320C7CE80F60F24A11041BFD342C /* NSString+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64.h"; path = "RSA/NSString+Base64.h"; sourceTree = "<group>"; };
+		BC300EAEF91079355D2A6F7D57A48B1D /* NSData+BDJSONSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+BDJSONSerialization.h"; path = "RSA/NSData+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		BC74DB9C3BA7D699271DD89EC1852F28 /* NSArray+BDJSONSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BDJSONSerialization.h"; path = "RSA/NSArray+BDJSONSerialization.h"; sourceTree = "<group>"; };
+		C10C53E7461BCDB68F7B2833906E0AE9 /* NSArray+BDJSONSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BDJSONSerialization.m"; path = "RSA/NSArray+BDJSONSerialization.m"; sourceTree = "<group>"; };
+		C12BC441B10523B90063A89BBFE2A4CB /* Base64nl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Base64nl.framework; path = Base64nl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAEA2BADA5F0A1E5D9BA6C6DDF7A2EC /* Base64nl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Base64nl-Info.plist"; sourceTree = "<group>"; };
+		D262493F3230B9A95C3BFB7258F229B1 /* BDCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDCryptor.h; path = RSA/BDCryptor.h; sourceTree = "<group>"; };
+		D361E14CA284AA89D472484DE3B1B2EC /* Base64-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Base64-Info.plist"; sourceTree = "<group>"; };
+		DA4D68C8A565978B552E8C64224C4441 /* Pods-Encryption.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Encryption.modulemap"; sourceTree = "<group>"; };
+		E08C779E50631C7CF499C9D92CBF2143 /* Base64.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Base64.framework; path = Base64.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3693BAB73314020205F81916B745EC7 /* Base64nl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Base64nl.debug.xcconfig; sourceTree = "<group>"; };
+		E9CF5CC12D851073192FC7F0797E0068 /* BDSHA512Cryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDSHA512Cryptor.m; path = RSA/BDSHA512Cryptor.m; sourceTree = "<group>"; };
+		EB387FC34E20B661E41656E91765B6C3 /* Base64-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Base64-umbrella.h"; sourceTree = "<group>"; };
+		EC71B2DAEAD21CFCF9F7F7551DD77AE4 /* Base64nl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Base64nl.modulemap; sourceTree = "<group>"; };
+		ED1B63C68DB77AB380A24FD2DD6F28CC /* Base64.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Base64.debug.xcconfig; sourceTree = "<group>"; };
+		EFE7093402ED119773C2319C11C4FEDD /* BDAESCBC256Cryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDAESCBC256Cryptor.m; path = RSA/BDAESCBC256Cryptor.m; sourceTree = "<group>"; };
+		F39441905E9754BFD09B63EB0A267BDA /* Base64nl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Base64nl-prefix.pch"; sourceTree = "<group>"; };
+		F82A1188DC610A3AADC69E1AB319CDD0 /* BDCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDCryptor.m; path = RSA/BDCryptor.m; sourceTree = "<group>"; };
+		FCB665780687DEF93F61A778CB3F387E /* RSA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSA-umbrella.h"; sourceTree = "<group>"; };
+		FE23EF54B474335227131A65AFC86353 /* RSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSA.framework; path = RSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF762FBB7473141442FC99634EB78EB3 /* RSA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSA-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275F9FB413AF111C03B878381DA67B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9D48A75A6992B86A44AB39130FFF21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B3C427C4D1FB51615DD68F1752CF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870818229EED21D9AA726B12F0766A88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B710E9549890EE5C454148B00D43D678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245DA0F938E643FC2A692269FD1976F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AEB55D005C9EE76833E00216659321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D9A148E31F217EF5BE5B1A8E92EC84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EBFF8B6237A622AE14300FF735942B /* Pods-Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D68C8A565978B552E8C64224C4441 /* Pods-Encryption.modulemap */,
+				1B6FACEC3FFD562311BA76F1645359E8 /* Pods-Encryption-acknowledgements.markdown */,
+				0B0008A3DB0CC543C4B69110F816F2AE /* Pods-Encryption-acknowledgements.plist */,
+				698E936C9EE45C6EDCBB18D987BBEAD6 /* Pods-Encryption-dummy.m */,
+				7895C785D44F53412A92E75DBB6538F9 /* Pods-Encryption-frameworks.sh */,
+				6939C25203FA23D31FBEAE6BD6FC118D /* Pods-Encryption-Info.plist */,
+				65DF02D5FCC558D8348F335736EDE05A /* Pods-Encryption-umbrella.h */,
+				9D02BF69B2804465ADEA1A0F9CAE8968 /* Pods-Encryption.debug.xcconfig */,
+				7D652BFC8EC0A830C986D1E5EEA1190F /* Pods-Encryption.release.xcconfig */,
+			);
+			name = "Pods-Encryption";
+			path = "Target Support Files/Pods-Encryption";
+			sourceTree = "<group>";
+		};
+		3E66238AA07D147149660302AE35813C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC71B2DAEAD21CFCF9F7F7551DD77AE4 /* Base64nl.modulemap */,
+				0DFA07009C8E6E364F0440544018375B /* Base64nl-dummy.m */,
+				CFAEA2BADA5F0A1E5D9BA6C6DDF7A2EC /* Base64nl-Info.plist */,
+				F39441905E9754BFD09B63EB0A267BDA /* Base64nl-prefix.pch */,
+				39D07A62FAA4C3F0064D03B49FA96EE3 /* Base64nl-umbrella.h */,
+				E3693BAB73314020205F81916B745EC7 /* Base64nl.debug.xcconfig */,
+				7BFFA6D54D6387294156C7EE95FE2DD5 /* Base64nl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Base64nl";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59D090EDD22014EAE92E789C1FA01358 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13EBFF8B6237A622AE14300FF735942B /* Pods-Encryption */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86CFC7B469C41F2BE3E65ACBA3ABFB17 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				2DA60607FD37FAFF83D678D7252DC955 /* MF_Base64Additions.h */,
+				5574139FC96731F4D9F65DE1C4FF2179 /* MF_Base64Additions.m */,
+				EFF89CE91B32FA4B222518CE77BC8371 /* Support Files */,
+			);
+			name = Base64;
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		AF69356E7C7E00979584658D4DBCB7A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BD5B115372F892200C9A00A528ECD86 /* RSA.modulemap */,
+				3811A7524B4677F0AE1F70A745FAB76C /* RSA-dummy.m */,
+				5688A1A4582D458BBA6AEA683738D383 /* RSA-Info.plist */,
+				FF762FBB7473141442FC99634EB78EB3 /* RSA-prefix.pch */,
+				FCB665780687DEF93F61A778CB3F387E /* RSA-umbrella.h */,
+				8C773715C78956A5C173B3591BDA465F /* RSA.debug.xcconfig */,
+				499E2AE638A66AC1CC56234DD8AB6ABF /* RSA.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSA";
+			sourceTree = "<group>";
+		};
+		B4D097EAE8355F1649D396688ADB482C /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				971DF065863F3AD441F1E8BD9C14F9BE /* BDAESCBC256Cryptor.h */,
+				EFE7093402ED119773C2319C11C4FEDD /* BDAESCBC256Cryptor.m */,
+				34E5A587086A36644B4603024D35AC10 /* BDAESCryptor.h */,
+				1672245A5A7ED05203C3854E0A5221FE /* BDAESCryptor.m */,
+				D262493F3230B9A95C3BFB7258F229B1 /* BDCryptor.h */,
+				F82A1188DC610A3AADC69E1AB319CDD0 /* BDCryptor.m */,
+				7DD80775E62E21B3BB3DD7054BFDF2A3 /* BDCryptorError.h */,
+				4EA1FAB9D3B19A64A4A12A2E9A85A0CD /* BDCryptorError.m */,
+				AA1CAB4760854538AD061043E8AE038B /* BDError.h */,
+				279C4A2CC144C10F8E73BD9365BBC3F8 /* BDError.m */,
+				B7F9F77591F921E1609DC84A5A534F73 /* BDJSON.h */,
+				6D9D053696ED94BA9180FAC1A949A1E8 /* BDJSONError.h */,
+				5E66DFDD367470C6A608F3ACB0792894 /* BDJSONError.m */,
+				217CD84E5F1B8122EB872D0FE9508930 /* BDLog.h */,
+				A69535ED043CD0971EB08105EE3C6E86 /* BDRSACryptor.h */,
+				60B0A2254560DA88A07C0EA64F63E94B /* BDRSACryptor.m */,
+				A7A5E01DDB57DC0A80967772930DF6F4 /* BDRSACryptorKeyPair.h */,
+				9CF2F574F52C9A5A08FF7041DF23912B /* BDRSACryptorKeyPair.m */,
+				24E4CA4EDBBFABBE80E1B192961D8BC6 /* BDSHA512Cryptor.h */,
+				E9CF5CC12D851073192FC7F0797E0068 /* BDSHA512Cryptor.m */,
+				BC74DB9C3BA7D699271DD89EC1852F28 /* NSArray+BDJSONSerialization.h */,
+				C10C53E7461BCDB68F7B2833906E0AE9 /* NSArray+BDJSONSerialization.m */,
+				5F43F3D6815867E7F17FF1FDF38EB539 /* NSData+Base641.h */,
+				346EC24C5EB5AC02CC211E9BFA34103B /* NSData+Base641.m */,
+				BC300EAEF91079355D2A6F7D57A48B1D /* NSData+BDJSONSerialization.h */,
+				A118031B8FDC4E1E6A30F46B01F3A553 /* NSData+BDJSONSerialization.m */,
+				4CA98F35FD96CC939BC9F3A4C05902ED /* NSDictionary+BDJSONSerialization.h */,
+				AEFD1ED5B5208469323425170E422B91 /* NSDictionary+BDJSONSerialization.m */,
+				8689F13010F080373F3D37354F398217 /* NSDictionary+BDParseJSON.h */,
+				13898595845082E42D0EFBBB768C946F /* NSDictionary+BDParseJSON.m */,
+				B1EAFBCD87BEE174620DAA82AF36DE84 /* NSObject+BDJSONSerialization.h */,
+				07C36E64BB80AE752E79FC34B54F1C13 /* NSObject+BDJSONSerialization.m */,
+				B9EC320C7CE80F60F24A11041BFD342C /* NSString+Base64.h */,
+				48EDCAE025DC6F05AE5ABA26D9EA58D8 /* NSString+Base64.m */,
+				9C641C11329A2DC9304BE81321DB88FA /* NSString+BDJSONSerialization.h */,
+				344CD00A85FB5DEC57DD0420634EEC0E /* NSString+BDJSONSerialization.m */,
+				8071A0C4A575A0C1287E14E14EA1CBE5 /* NSString+BDUtilities.h */,
+				579B5B1C57520A702EC46793E7232D7C /* NSString+BDUtilities.m */,
+				09AD003A7003EA0EF4A38A2910859E14 /* SCRSACryptor.h */,
+				074A12217FB3C6F0AB2824471B2934C4 /* SCRSACryptor.m */,
+				AF69356E7C7E00979584658D4DBCB7A7 /* Support Files */,
+			);
+			name = RSA;
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		C2A50D165006894F9FC0F69BEE363636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86CFC7B469C41F2BE3E65ACBA3ABFB17 /* Base64 */,
+				D137F9117E0E35B223AC770E56E08F8A /* Base64nl */,
+				B4D097EAE8355F1649D396688ADB482C /* RSA */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C2A50D165006894F9FC0F69BEE363636 /* Pods */,
+				F98AA3743454A5CC3AC64D1CCD01BF33 /* Products */,
+				59D090EDD22014EAE92E789C1FA01358 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D137F9117E0E35B223AC770E56E08F8A /* Base64nl */ = {
+			isa = PBXGroup;
+			children = (
+				2360D678F26AC0BDC583ACF5436B7C8D /* Base64.h */,
+				134A0EBC258C1A7BDBDC6571CD0B29DA /* Base64.m */,
+				3E66238AA07D147149660302AE35813C /* Support Files */,
+			);
+			name = Base64nl;
+			path = Base64nl;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFF89CE91B32FA4B222518CE77BC8371 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B652EA2679D1E66F4F02756E84851D0 /* Base64.modulemap */,
+				56CA598B6EB81056EDFA73F102DD0B5F /* Base64-dummy.m */,
+				D361E14CA284AA89D472484DE3B1B2EC /* Base64-Info.plist */,
+				A103910207F6ACA7CE29EF093FE26FE0 /* Base64-prefix.pch */,
+				EB387FC34E20B661E41656E91765B6C3 /* Base64-umbrella.h */,
+				ED1B63C68DB77AB380A24FD2DD6F28CC /* Base64.debug.xcconfig */,
+				187200D1983632A60D8899665705047F /* Base64.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Base64";
+			sourceTree = "<group>";
+		};
+		F98AA3743454A5CC3AC64D1CCD01BF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E08C779E50631C7CF499C9D92CBF2143 /* Base64.framework */,
+				C12BC441B10523B90063A89BBFE2A4CB /* Base64nl.framework */,
+				8C4509E836D9372386A462B7E9B133D5 /* Pods_Encryption.framework */,
+				FE23EF54B474335227131A65AFC86353 /* RSA.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D228EE556FE3EC8F5D7005DAE5F6F80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58FE09D2193FCA1F500AC523D917575 /* BDAESCBC256Cryptor.h in Headers */,
+				06CFDF925069A7AA14A6D31D21ED2FE9 /* BDAESCryptor.h in Headers */,
+				AB91CD83ABBC20E185A17E1FBC62F25E /* BDCryptor.h in Headers */,
+				42A9A14C3E219757791247CA378D8D35 /* BDCryptorError.h in Headers */,
+				D1B3CFBF3BE0274B581868C047CF25FB /* BDError.h in Headers */,
+				0DDA3B744279CEF50DB4C1F56AD57650 /* BDJSON.h in Headers */,
+				81F691FD33F78C74A9CE3348CA87CAB2 /* BDJSONError.h in Headers */,
+				C0C53B9BFBB37F700DE70CE3C0A5402F /* BDLog.h in Headers */,
+				54676A2DD5CC71B604278902360DBC48 /* BDRSACryptor.h in Headers */,
+				8A8F055064F72FAC50B142FABB642F08 /* BDRSACryptorKeyPair.h in Headers */,
+				C9A6A0E391F3264CD9A27B242F80C03A /* BDSHA512Cryptor.h in Headers */,
+				607CEBCC212E517E6C89CF7D47BFEDEE /* NSArray+BDJSONSerialization.h in Headers */,
+				5F6F9F18262C5703FD483DDB90DF7764 /* NSData+Base641.h in Headers */,
+				CDD9553A35CD366E0F3EA7A953867243 /* NSData+BDJSONSerialization.h in Headers */,
+				899ACA980B6D425614A2AB4600968242 /* NSDictionary+BDJSONSerialization.h in Headers */,
+				4217091FB26537D70554531304F88935 /* NSDictionary+BDParseJSON.h in Headers */,
+				BAED4B17E5693474E41C6F6EAF6B6E26 /* NSObject+BDJSONSerialization.h in Headers */,
+				CCAC40E72FD7179B52A6E24F08539FC3 /* NSString+Base64.h in Headers */,
+				CD5B97A224F386EE8F38FC2C26BDB736 /* NSString+BDJSONSerialization.h in Headers */,
+				26EFE4E74A9C5432803530D7F93CC406 /* NSString+BDUtilities.h in Headers */,
+				EBF323E3B4A1D9F0B996E2613A0356DD /* RSA-umbrella.h in Headers */,
+				5B37A4D5DC0F55007CA30FF76884F857 /* SCRSACryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F32FD3917AB4CE9AC57995C96C602C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A538196DD0BF9A0FDF1E91C0AFF50A /* Base64-umbrella.h in Headers */,
+				E88AB2C8BA04B79EB3A808EDAF10A3F7 /* MF_Base64Additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBDAC66D57995E0500DBA9DF8D99901 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6EC77F1C92A395AD9159D97984A39F /* Pods-Encryption-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78346A4616142FD48ABF19CF79D70527 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075BC23E586ECB84D03AB366DB527847 /* Base64.h in Headers */,
+				CF9BC6AD4580C679791B6F44A6926CC8 /* Base64nl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4800C9DC8117D7550604F4B46B60EBB0 /* RSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CF4CE4E5E563DACBD4A46A5091AFE7 /* Build configuration list for PBXNativeTarget "RSA" */;
+			buildPhases = (
+				0D228EE556FE3EC8F5D7005DAE5F6F80 /* Headers */,
+				2B7DCDB0D3A41337FE695D6CB848F691 /* Sources */,
+				275F9FB413AF111C03B878381DA67B7A /* Frameworks */,
+				9F2CAAC90C0D6731D70162A07594BA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSA;
+			productName = RSA;
+			productReference = FE23EF54B474335227131A65AFC86353 /* RSA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CBD4D5D3634AE60FF999E9B1F2A7E6B /* Base64nl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5A1D433873E47B8893F5A26BEF4FFD /* Build configuration list for PBXNativeTarget "Base64nl" */;
+			buildPhases = (
+				78346A4616142FD48ABF19CF79D70527 /* Headers */,
+				414E743374A3F8CBF35AA4E244F81F13 /* Sources */,
+				B710E9549890EE5C454148B00D43D678 /* Frameworks */,
+				CCC60186C29B2FBEA6454364A3728F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Base64nl;
+			productName = Base64nl;
+			productReference = C12BC441B10523B90063A89BBFE2A4CB /* Base64nl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C190533626A3B69BDA572A08F347DA0C /* Pods-Encryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D3BB9A2E9FFC53AF6EF2C015ADBBA5 /* Build configuration list for PBXNativeTarget "Pods-Encryption" */;
+			buildPhases = (
+				2DBDAC66D57995E0500DBA9DF8D99901 /* Headers */,
+				ABB1BE20592F2A8BCADA4D747674C920 /* Sources */,
+				41B3C427C4D1FB51615DD68F1752CF73 /* Frameworks */,
+				4EB1D15589D8196BF4A1FD0770A46CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				513DF15090A952E67F869BA7E8D1DF7D /* PBXTargetDependency */,
+				7803B6132C990A1BC0C8E3512EFE33E8 /* PBXTargetDependency */,
+				258FC216B07756DFD424146276226D12 /* PBXTargetDependency */,
+			);
+			name = "Pods-Encryption";
+			productName = "Pods-Encryption";
+			productReference = 8C4509E836D9372386A462B7E9B133D5 /* Pods_Encryption.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB2B17EEE15C8E869A37C1514F4D378E /* Base64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD757ED779D2C3FA73005423E3450990 /* Build configuration list for PBXNativeTarget "Base64" */;
+			buildPhases = (
+				1F32FD3917AB4CE9AC57995C96C602C2 /* Headers */,
+				46B62C2776CDE8032D39A43983487FB1 /* Sources */,
+				D2AEB55D005C9EE76833E00216659321 /* Frameworks */,
+				02210ABB00C35C5F9BB1317CFDE1A401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Base64;
+			productName = Base64;
+			productReference = E08C779E50631C7CF499C9D92CBF2143 /* Base64.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F98AA3743454A5CC3AC64D1CCD01BF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2B17EEE15C8E869A37C1514F4D378E /* Base64 */,
+				5CBD4D5D3634AE60FF999E9B1F2A7E6B /* Base64nl */,
+				C190533626A3B69BDA572A08F347DA0C /* Pods-Encryption */,
+				4800C9DC8117D7550604F4B46B60EBB0 /* RSA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02210ABB00C35C5F9BB1317CFDE1A401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB1D15589D8196BF4A1FD0770A46CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2CAAC90C0D6731D70162A07594BA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC60186C29B2FBEA6454364A3728F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B7DCDB0D3A41337FE695D6CB848F691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CA448C91D9C4368E8D42DA780146BA /* BDAESCBC256Cryptor.m in Sources */,
+				6B8758E15FF0FB71255ACDDF1C43BC9F /* BDAESCryptor.m in Sources */,
+				8C9239F06C7C1A1C9633AB11E1935169 /* BDCryptor.m in Sources */,
+				D1428778779D8634977D36F726212323 /* BDCryptorError.m in Sources */,
+				79F94DC6BABAB1C466DE24A328ABA3FB /* BDError.m in Sources */,
+				B4A46B33BFB001CE620EEBE0C96D1929 /* BDJSONError.m in Sources */,
+				F2A5F957A3C0B8DCBE80AE8836135D79 /* BDRSACryptor.m in Sources */,
+				FA3B69DF33CBF51232A02CE18548FA44 /* BDRSACryptorKeyPair.m in Sources */,
+				64CDE502C10631FB0731051BFBB688E5 /* BDSHA512Cryptor.m in Sources */,
+				717F44A88801E6CA81788B545FBF2A52 /* NSArray+BDJSONSerialization.m in Sources */,
+				B585EA66CF774B7FD67D0EFDBF628656 /* NSData+Base641.m in Sources */,
+				E7C944E6E589B5CBB046E28C01814C35 /* NSData+BDJSONSerialization.m in Sources */,
+				C741766B35750FF2B481C8D87FBD7CFC /* NSDictionary+BDJSONSerialization.m in Sources */,
+				043FCE63EB889C144461693407D4D00A /* NSDictionary+BDParseJSON.m in Sources */,
+				60A9C9710CBF6B23A99E604189EC03FB /* NSObject+BDJSONSerialization.m in Sources */,
+				A2EBC2E7FDFA0559A350EE262AD682C9 /* NSString+Base64.m in Sources */,
+				3C8D12FF365F304C534886F4715FEFE9 /* NSString+BDJSONSerialization.m in Sources */,
+				D73A06550C3CAED21DE83716206E437C /* NSString+BDUtilities.m in Sources */,
+				940225EC4877224F56F0B96C8A5195D4 /* RSA-dummy.m in Sources */,
+				E2C3E6B06FFC35C90F8A6A7B78DA44AE /* SCRSACryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414E743374A3F8CBF35AA4E244F81F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39E9FB280494F3B954004484527051C /* Base64.m in Sources */,
+				52187291B58AA66B64E4BBBCE3931732 /* Base64nl-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B62C2776CDE8032D39A43983487FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBFE82FD500E8DA2057E6866276FDB5 /* Base64-dummy.m in Sources */,
+				99A945775767DCBEC1685F74B597DF23 /* MF_Base64Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB1BE20592F2A8BCADA4D747674C920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8C2023AE44E13F8A36530E0CEED6AE /* Pods-Encryption-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		258FC216B07756DFD424146276226D12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSA;
+			target = 4800C9DC8117D7550604F4B46B60EBB0 /* RSA */;
+			targetProxy = C91F12337DF36CA7A0CCB53E73D48551 /* PBXContainerItemProxy */;
+		};
+		513DF15090A952E67F869BA7E8D1DF7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Base64;
+			target = DB2B17EEE15C8E869A37C1514F4D378E /* Base64 */;
+			targetProxy = 2512A6BB38781AC6F71017A3C801762E /* PBXContainerItemProxy */;
+		};
+		7803B6132C990A1BC0C8E3512EFE33E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Base64nl;
+			target = 5CBD4D5D3634AE60FF999E9B1F2A7E6B /* Base64nl */;
+			targetProxy = A2EDDE7A7605C92521271C1D0FF930C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31CF3A59B13283BEDEE459AD366B44E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499E2AE638A66AC1CC56234DD8AB6ABF /* RSA.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSA/RSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSA/RSA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RSA/RSA.modulemap";
+				PRODUCT_MODULE_NAME = RSA;
+				PRODUCT_NAME = RSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70CF02AAEFA0188209D4BA465FC3DDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187200D1983632A60D8899665705047F /* Base64.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Base64/Base64-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Base64/Base64-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Base64/Base64.modulemap";
+				PRODUCT_MODULE_NAME = Base64;
+				PRODUCT_NAME = Base64;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85D926D42D3CF983C80F4B5A2E4C19DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFFA6D54D6387294156C7EE95FE2DD5 /* Base64nl.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Base64nl/Base64nl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Base64nl/Base64nl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Base64nl/Base64nl.modulemap";
+				PRODUCT_MODULE_NAME = Base64nl;
+				PRODUCT_NAME = Base64nl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A4D1CB6285A144B552A20478B371880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D652BFC8EC0A830C986D1E5EEA1190F /* Pods-Encryption.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Encryption/Pods-Encryption-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Encryption/Pods-Encryption.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		999901BF07C6FA8EE7DF88129DCB12F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1B63C68DB77AB380A24FD2DD6F28CC /* Base64.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Base64/Base64-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Base64/Base64-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Base64/Base64.modulemap";
+				PRODUCT_MODULE_NAME = Base64;
+				PRODUCT_NAME = Base64;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B686B368DDF6BBB9E8A5FD2B3EEC3FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D02BF69B2804465ADEA1A0F9CAE8968 /* Pods-Encryption.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Encryption/Pods-Encryption-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Encryption/Pods-Encryption.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DCBEA7135FD600C24E13ED292B95F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C773715C78956A5C173B3591BDA465F /* RSA.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSA/RSA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSA/RSA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RSA/RSA.modulemap";
+				PRODUCT_MODULE_NAME = RSA;
+				PRODUCT_NAME = RSA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5626B8785713AE9DBD9F90ECABA8553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3693BAB73314020205F81916B745EC7 /* Base64nl.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Base64nl/Base64nl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Base64nl/Base64nl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Base64nl/Base64nl.modulemap";
+				PRODUCT_MODULE_NAME = Base64nl;
+				PRODUCT_NAME = Base64nl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5A1D433873E47B8893F5A26BEF4FFD /* Build configuration list for PBXNativeTarget "Base64nl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5626B8785713AE9DBD9F90ECABA8553 /* Debug */,
+				85D926D42D3CF983C80F4B5A2E4C19DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59CF4CE4E5E563DACBD4A46A5091AFE7 /* Build configuration list for PBXNativeTarget "RSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBEA7135FD600C24E13ED292B95F0CB /* Debug */,
+				31CF3A59B13283BEDEE459AD366B44E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD757ED779D2C3FA73005423E3450990 /* Build configuration list for PBXNativeTarget "Base64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999901BF07C6FA8EE7DF88129DCB12F0 /* Debug */,
+				70CF02AAEFA0188209D4BA465FC3DDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D3BB9A2E9FFC53AF6EF2C015ADBBA5 /* Build configuration list for PBXNativeTarget "Pods-Encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B686B368DDF6BBB9E8A5FD2B3EEC3FF5 /* Debug */,
+				8A4D1CB6285A144B552A20478B371880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
